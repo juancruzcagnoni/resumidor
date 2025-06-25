@@ -1,6 +1,6 @@
 from transformers import pipeline
 
-summarizer_pipeline = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
+summarizer_pipeline = pipeline("summarization", model="facebook/bart-large-cnn")
 
 MAX_INPUT_CHARS = 3000  
 
