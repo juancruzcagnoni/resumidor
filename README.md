@@ -1,6 +1,6 @@
-# Resumidor de Artículos Web / Web Article Summarizer
+# Resumidor de artículos web / Web article summarizer
 
-## 📄 Descripción / Description
+## Descripción / Description
 
 **ES:**  
 Este proyecto permite resumir artículos de cualquier página web y generar un archivo PDF con el resumen. Utiliza inteligencia artificial para crear resúmenes automáticos y un diseño profesional en el PDF resultante.
@@ -10,7 +10,7 @@ This project allows you to summarize articles from any website and generate a PD
 
 ---
 
-## ⚙️ Stack Técnico / Tech Stack
+## Stack Técnico / Tech Stack
 
 - **Python 3.8+**
 - [transformers (HuggingFace)](https://huggingface.co/docs/transformers/index) (modelo BART para resumen)
@@ -22,7 +22,7 @@ This project allows you to summarize articles from any website and generate a PD
 
 ---
 
-## 🚀 ¿Cómo funciona? / How does it work?
+## ¿Cómo funciona? / How does it work?
 
 1. El usuario ejecuta el script con la URL de un artículo.
 2. El programa descarga el texto del artículo.
@@ -31,7 +31,7 @@ This project allows you to summarize articles from any website and generate a PD
 
 ---
 
-## 🛠️ Instalación / Installation
+## Instalación / Installation
 
 1. Clona el repositorio:
    ```sh
@@ -49,7 +49,7 @@ This project allows you to summarize articles from any website and generate a PD
 
 ---
 
-## ▶️ Uso / Usage
+## Uso / Usage
 
 ```sh
 python main.py <URL-del-articulo>
@@ -64,7 +64,7 @@ El PDF generado se guardará en la carpeta `output/`.
 
 ---
 
-## 📁 Estructura del Proyecto / Project Structure
+## Estructura del Proyecto / Project Structure
 
 ```
 resumidor/
@@ -83,7 +83,7 @@ resumidor/
 
 ---
 
-## 📝 Notas / Notes
+## Notas / Notes
 
 - El modelo de IA puede requerir una buena conexión a internet la primera vez (descarga automática).
 - Si falta la fuente `Arial.TTF`, el script no podrá generar PDFs.
